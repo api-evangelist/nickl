@@ -1,7 +1,30 @@
 aid: nickl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nickl.png
 name: NICKL
-description: NICKL is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NICKL (Nicklpass) is a subscription management platform that bills itself as
+  "the operating system for subscriptions." It helps organizations govern the
+  digital tools, SaaS subscriptions, and data services their teams use by
+  connecting identity, usage, and procurement data in one place. Capabilities
+  include role-based governance and provisioning, usage intelligence to surface
+  adoption and redundant spend, and coordinated procurement that aggregates
+  demand to negotiate from real usage data. The platform integrates with Google
+  Workspace, Microsoft 365, and Plaid, and applies AI models for insights and
+  pricing optimization. NICKL participated in the Comcast NBCUniversal LIFT Labs
+  Accelerator powered by Techstars. As of this enrichment pass the company
+  publishes a marketing site and hosted control panel but no public API,
+  developer portal, OpenAPI, SDK, or other machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/nickl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Subscription Management
+- SaaS Management
+- Procurement
+- Usage Intelligence
+- Governance
+- Identity
+- Spend Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://nicklpass.com/
+- type: SignUp
+  url: https://controlpanel.nicklpass.com/signup
+- type: TermsOfService
+  url: https://nicklpass.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://nicklpass.com/privacy-policy
+- type: Support
+  url: mailto:support@nicklpass.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
